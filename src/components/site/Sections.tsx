@@ -30,7 +30,7 @@ import hero2Img from "@/assets/hero-2.jpg";
 import hero3Img from "@/assets/hero-3.jpg";
 import ownerImg from "@/assets/about-owner.jpg.asset.json";
 import pipesImg from "@/assets/pipes-work.jpg";
-import logoAsset from "@/assets/vai-logo.jpeg";
+import logoAsset from "@/assets/vai.png";
 const heroSlides = [
   {
     img: heroImg,
