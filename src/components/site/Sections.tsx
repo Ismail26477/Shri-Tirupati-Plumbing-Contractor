@@ -171,10 +171,11 @@ export function About() {
           <img
   src={logoAsset}
   alt="Shri Tirupati Plumbing Contractor logo"
-  width={40}
-  height={40}
-  className="size-10 shrink-0 object-contain"
-/>
+              loading="lazy"
+            width={1008}
+            height={1008}
+            className="aspect-square w-full rounded-3xl object-cover shadow-soft"
+          />
         </div>
         <div className="reveal order-1 lg:order-2">
           <SectionLabel>About Us</SectionLabel>
