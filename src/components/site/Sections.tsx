@@ -30,8 +30,7 @@ import hero2Img from "@/assets/hero-2.jpg";
 import hero3Img from "@/assets/hero-3.jpg";
 import ownerImg from "@/assets/about-owner.jpg.asset.json";
 import pipesImg from "@/assets/pipes-work.jpg";
-import logoAsset from "@/assets/tirupati-logo.png.asset.json";
-
+import logoAsset from "@/assets/vai-logo.jpeg";
 const heroSlides = [
   {
     img: heroImg,
@@ -170,13 +169,12 @@ export function About() {
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
         <div className="reveal order-2 lg:order-1">
           <img
-            src={ownerImg.url}
-            alt={`${OWNER}, owner of ${BUSINESS}`}
-            loading="lazy"
-            width={1008}
-            height={1008}
-            className="aspect-square w-full rounded-3xl object-cover shadow-soft"
-          />
+  src={logoAsset}
+  alt="Shri Tirupati Plumbing Contractor logo"
+  width={40}
+  height={40}
+  className="size-10 shrink-0 object-contain"
+/>
         </div>
         <div className="reveal order-1 lg:order-2">
           <SectionLabel>About Us</SectionLabel>
