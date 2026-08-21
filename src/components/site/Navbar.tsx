@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, Phone, X } from "lucide-react";
 import { PHONE, PHONE_HREF } from "./constants";
-import logoAsset from "@/assets/tirupati-logo.png.asset.json";
+import logoAsset from "@/assets/vai-logo.jpeg";
 
 const links = [
   { label: "Home", href: "#home" },
@@ -34,12 +34,12 @@ export function Navbar() {
       >
         <a href="#home" className="flex items-center gap-3">
           <img
-            src={logoAsset.url}
-            alt="Shri Tirupati Plumbing Contractor logo"
-            width={40}
-            height={40}
-            className="size-10 shrink-0 object-contain"
-          />
+  src={logoAsset}
+  alt="Shri Tirupati Plumbing Contractor logo"
+  width={40}
+  height={40}
+  className="size-10 shrink-0 object-contain"
+/>
           <span className="leading-tight">
             <span className="block font-display text-lg font-bold tracking-tight text-charcoal uppercase sm:text-xl">
               Shri Tirupati
