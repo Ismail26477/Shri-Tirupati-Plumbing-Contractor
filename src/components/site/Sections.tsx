@@ -28,7 +28,7 @@ import {
 import heroImg from "@/assets/hero-plumber.jpg";
 import hero2Img from "@/assets/hero-2.jpg";
 import hero3Img from "@/assets/hero-3.jpg";
-import ownerImg from "@/assets/about-owner.jpg.asset.json";
+import logoAsset1 from "@/assets/vai-logo.jpeg";
 import pipesImg from "@/assets/pipes-work.jpg";
 import logoAsset from "@/assets/vai.png";
 const heroSlides = [
@@ -540,7 +540,7 @@ export function Footer() {
         <div>
           <h2 className="flex items-center gap-3 font-display text-xl font-bold uppercase">
             <img
-              src={logoAsset.url}
+  src={logoAsset1}
               alt=""
               width={40}
               height={40}
